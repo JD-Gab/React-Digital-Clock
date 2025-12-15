@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-image: url(assets/background.gif), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.digital-clock {
+  font-family: 'Arial', Courier, monospace;
+  font-size: 2em;
+  color: #ecf1f8;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clock-number{
+    width: 50px;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 3rem;
+}
